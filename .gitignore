@@ -1,0 +1,7 @@
+.DS_Store
+node_modules/
+public/fingerprints/rust_pkg
+/src/data
+collect_fingerprint-rs/target/
+collect_fingerprint-rs/pkg/
+collect_fingerprint-rsCargo.lock
