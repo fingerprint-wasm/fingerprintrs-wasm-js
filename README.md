@@ -46,6 +46,6 @@ make run
 
 ## 📌 Requisitos
 
-* \node instalado
-* \rust instalado
+* node instalado
+* rust instalado
 
