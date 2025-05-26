@@ -7,15 +7,16 @@ Este repositório reúne a implementação de técnicas de Web Fingerprinting ut
 ## 📄 Sobre o Artigo
 
 - **Título**: Além do JavaScript: Explorando Web Fingerprinting usando WebAssembly
-- **Autores**:  Euler da Silva, Atos Omena, Ágata Brazão, Francisco Neto, Bento Baptista, Eduardo Feitosa
 
 ## 📁 Estrutura do Repositório
 
 ```
 
-├── src/                  # \[Descrição da pasta]
-├── \[outras pastas/]      # \[Descrição]
-├── README.md             # Este arquivo
+├── src/                      # \Pasta contendo as implementações do backend
+├── public                    # \Pasta contendo as implementações do frontend e scripts fornecidos para os navegadores
+├── collect_fingerprint-rs    # \Pasta contendo a implementação em rust do módulo posteriormente compilado em wasm
+├── Makefile                  # Arquivo contendo comandos facilitadores para execução deste projeto
+├── README.md                 # Este arquivo
 
 ````
 
@@ -24,42 +25,27 @@ Este repositório reúne a implementação de técnicas de Web Fingerprinting ut
 
 ### 1. Clonar o Repositório
 ```bash
-git clone https://github.com/[usuario]/[nome-do-repositorio].git
-cd [nome-do-repositorio]
+git clone [https://github.com/[usuario]/[nome-do-repositorio].git](https://github.com/fingerprint-wasm/fingerprintrs-wasm-js.git)
+cd fingerprintrs-wasm-js
 ````
 
 ### 2. \[Passo 2: instalar dependências, compilar, etc.]
 
 ```bash
-[comando aqui]
+make rust
+make js
 ```
 
 ### 3. \[Passo 3: execução, testes, etc.]
 
 ```bash
-[comando aqui]
+make run
 ```
-
----
-
-## 📊 Resultados
-
-\[Descreva os resultados, métricas ou gráficos principais e onde encontrá-los.]
 
 ---
 
 ## 📌 Requisitos
 
-* \[Linguagem e versão]
-* \[Dependência 1]
-* \[Dependência 2]
-* \[IDE ou ambiente necessário]
+* \node instalado
+* \rust instalado
 
----
-
-## 📫 Contato
-
-* \[Nome] – \[email]
-* \[Outro nome] – \[email]
-
----
